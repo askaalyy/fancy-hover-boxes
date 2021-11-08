@@ -36,13 +36,18 @@ section {
 }
 
 .hover-box :hover h2,
-.hover-box ;focus h2{
+.hover-box :focus h2{
   bottom: 0;
-  fliter: grayscale(0);
-  transform: all scale(1.1);
+}
+
+.hover-box :hover img,
+.hover-box :focus img{
+fliter: grayscale(0);
+transform: all scale(1.1);
 }
 
 hover-box img {
-  filter: greyscale(100%);
+  filter: grayscale(100%);
   transition: all .2s linear;
+  width: 100%;
 }
